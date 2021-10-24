@@ -6,6 +6,7 @@ body{
   background-repeat:repeat;
   font-family: Josefin Sans;
   
+  
 }
 
 section{
@@ -75,10 +76,33 @@ section{
 #email button{
   position: relative;
    color:linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
-   height: 55px;
+   height: 57px;
    width: 120px;
    border-radius: 50px;
    left: -20%;;
    top: 4px;
+   background-color:  rgb(248, 209, 215);
+   border-style: none;
+   box-shadow: 0 0 10px #333;
+   padding-left: 10px;
 
+}
+
+#error-message p{
+     position: relative;
+     color:hsl(0, 93%, 68%);
+     left: 10%;
+     top: 1000;
+  
+}
+
+#error-message img{
+  position:absolute;
+  left: 40%;
+  top: 19px;
+
+}
+
+#error-message{
+  display: none;
 }
